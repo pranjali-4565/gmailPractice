@@ -14,7 +14,7 @@ public class GmailPasswordPage extends BasePage {
 	private By submit = By.xpath("//span[normalize-space()='Next']");
 	public void setPasswordAndLogin() throws InterruptedException
 	{
-		getElement(pass).sendKeys("wyh+/3{C");
+		getElement(pass).sendKeys("abc");
 		Thread.sleep(4000);
 		getElement(submit).click();
 		Thread.sleep(8000);
